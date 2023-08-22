@@ -1,0 +1,55 @@
+nick@nick-VirtualBox:~/cmpt300/as4$ ls -lRi *
+789061 -rw-rw-r-- 3 nick nick  5642 Jul 28 23:45 abba.c
+789336 -rw-rw-r-- 1 nick nick     0 Jul 30  2021 filename
+789061 -rw-rw-r-- 3 nick nick  5642 Jul 28 23:45 hard_link
+525075 -rw-rw-r-- 1 nick nick   991 Jul 27 20:27 infodemo.c
+790348 lrwxrwxrwx 1 nick nick     6 Jul 28 23:38 link.c -> abba.c
+791371 -rw-rw-r-- 1 nick nick   193 Jul 25 15:35 Makefile
+788764 -rwxrwxr-x 1 nick nick 29184 Aug  2 23:28 myls
+790281 -rw-rw-r-- 1 nick nick  9662 Aug  2 23:28 myls.c
+788743 -rw-rw-r-- 1 nick nick 26088 Aug  2 23:28 myls.o
+789272 -rw-rw-r-- 1 nick nick     0 Jul 30  1973 old
+788894 -rw-rw-r-- 1 nick nick  1736 Aug  2 22:08 README.txt
+524513 -rw-rw-r-- 1 nick nick   101 Jul 27 16:09 secret_headers.h
+788928 lrwxrwxrwx 1 nick nick     5 Jul 30 17:42 temp1_link -> temp1
+
+a:
+total 0
+
+a_dir:
+total 0
+
+b:
+total 0
+
+emptydir:
+total 0
+
+temp1:
+total 8
+790011 drwxrwxr-x 2 nick nick 4096 Aug  2 14:28 a
+789017 lrwxrwxrwx 1 nick nick    1 Aug  2 14:28 a_link -> a
+789968 -rw-rw-r-- 1 nick nick    0 Jul 28 18:36 hello.txt
+788862 drwxrwxr-x 2 nick nick 4096 Jul 28 22:13 inner_temp1
+788845 lrwxrwxrwx 1 nick nick    9 Jul 30 21:22 link_to_hello -> hello.txt
+
+temp1/a:
+total 0
+789067 -rw-rw-r-- 1 nick nick 0 Aug  2 14:28 hello.c
+
+temp1/inner_temp1:
+total 0
+788861 -rw-rw-r-- 1 nick nick 0 Jul 28 22:13 gay
+788864 -rw-rw-r-- 1 nick nick 0 Jul 28 22:13 wow
+
+temp2:
+total 4
+790346 -rw-rw-r-- 1 nick nick    0 Jul 28 19:03 cum.txt
+790347 -rw-rw-r-- 1 nick nick    0 Jul 28 19:03 fuck.txt
+789974 drwxrwxr-x 2 nick nick 4096 Jul 28 19:03 inner_temp2
+789261 lrwxrwxrwx 1 nick nick   11 Jul 30 21:12 link_to_inner -> inner_temp2
+
+temp2/inner_temp2:
+total 0
+789977 -rw-rw-r-- 1 nick nick 0 Jul 28 19:03 hi.txt
+789976 -rw-rw-r-- 1 nick nick 0 Jul 28 19:02 wow.txt
